@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Colors
 #Manual install: https://mzonder.notion.site/Celestia-clean-install-mamaki-d15779d7857c4bfab2ef260d79a4d59c
+#Colors
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'

@@ -114,7 +114,6 @@ then
   echo -e "Check status node: ${BLUE}curl localhost:26657/status${COLOR_OFF}"
   echo -e "Check logs: ${BLUE}journalctl -u celestia-appd -f -o cat${COLOR_OFF}"
   echo -e "Feedback: ${BLUE}https://t.me/icodragon${COLOR_OFF} Discord: ${BLUE}icodragon#4560${COLOR_OFF}"
-  cat $HOME/${CELESTIA_WALLET}_mnemonic.txt
 else
   echo -e "$DRAGON ${RED}Node Celestia don't running. Please install node in manual mode.${COLOR_OFF}"
 fi
